@@ -23,7 +23,7 @@ export default function App() {
             </h1>
             <p className="hero-sub">
               Saqib Jamal — Software Engineer with keen interests in Smart Contracts development, Cryptogtraphy and web3Security : 
-              
+
             </p>
           </div>
           <div className="hero-graphic">
@@ -59,9 +59,9 @@ export default function App() {
           <p className="section-eyebrow">Get in touch</p>
           <h2 className="section-title">Contact</h2>
           <div className="contact-links">
-            <a href="mailto:you@example.com">Email</a>
-            <a href="https://github.com/yourhandle" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="saqibjamal734@gamail.com">Email</a>
+            <a href="https://github.com/saqib-jamal" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/saqib-jamal-8b5261274" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </section>
       </main>
