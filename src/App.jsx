@@ -1,4 +1,5 @@
 import ShareLine from './ShareLine';
+import Certifications from './Certifications';
 import './App.css';
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
         <span className="nav-mark">/ portfolio</span>
         <nav className="nav-links">
           <a href="#work">Work</a>
+          <a href="#certifications">Certifications</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -22,8 +24,8 @@ export default function App() {
               then ask what breaks them.
             </h1>
             <p className="hero-sub">
-              Saqib Jamal — Software Engineer with keen interests in Smart Contracts development, Cryptogtraphy and web3Security : 
-
+              Your name — replace with a line on what you actually do: the kind of
+              problems you reach for, and the layer of the stack you live in.
             </p>
           </div>
           <div className="hero-graphic">
@@ -45,6 +47,8 @@ export default function App() {
           </div>
         </section>
 
+        <Certifications />
+
         <section id="about" className="section">
           <p className="section-eyebrow">About</p>
           <h2 className="section-title">Background</h2>
@@ -59,9 +63,9 @@ export default function App() {
           <p className="section-eyebrow">Get in touch</p>
           <h2 className="section-title">Contact</h2>
           <div className="contact-links">
-            <a href="saqibjamal734@gamail.com">Email</a>
-            <a href="https://github.com/saqib-jamal" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/saqib-jamal-8b5261274" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:you@example.com">Email</a>
+            <a href="https://github.com/yourhandle" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </section>
       </main>
