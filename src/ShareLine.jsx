@@ -26,16 +26,16 @@ export default function ShareLine() {
         className="curve-ghost"
       />
 
-      {/* the resolved line */}
+      {/* the resolved line — from (30,150) to (530,70), slope = -0.16 */}
       <line
         x1="30" y1="150" x2="530" y2="70"
         className={`share-line-path${settled ? ' is-settled' : ''}`}
       />
 
-      {/* points */}
-      <circle cx="90" cy="132" r="5" className={`pt${settled ? ' is-settled' : ''}`} style={{ transitionDelay: '80ms' }} />
-      <circle cx="280" cy="112" r="5" className={`pt${settled ? ' is-settled' : ''}`} style={{ transitionDelay: '180ms' }} />
-      <circle cx="470" cy="86" r="5" className={`pt${settled ? ' is-settled' : ''}`} style={{ transitionDelay: '280ms' }} />
+      {/* points — exactly on the line above: y = 150 - 0.16(x - 30) */}
+      <circle cx="90" cy="140" r="5" className={`pt${settled ? ' is-settled' : ''}`} style={{ transitionDelay: '80ms' }} />
+      <circle cx="280" cy="110" r="5" className={`pt${settled ? ' is-settled' : ''}`} style={{ transitionDelay: '180ms' }} />
+      <circle cx="470" cy="80" r="5" className={`pt${settled ? ' is-settled' : ''}`} style={{ transitionDelay: '280ms' }} />
 
       {/* the secret, at x = 0 */}
       <circle cx="30" cy="150" r="4" className={`origin${settled ? ' is-settled' : ''}`} />
