@@ -1,0 +1,41 @@
+:root {
+  --paper: #F7F5F2;
+  --ink: #1B1B18;
+  --indigo: #2B3A67;
+  --brass: #B08D57;
+  --grey: #8A8578;
+  --line: #E1DDD4;
+
+  --serif: 'Fraunces', serif;
+  --sans: 'Inter', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root { min-height: 100vh; }
+
+a { color: inherit; }
+
+::selection {
+  background: var(--indigo);
+  color: var(--paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--indigo);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
