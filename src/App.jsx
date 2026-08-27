@@ -22,8 +22,8 @@ export default function App() {
               then ask what breaks them.
             </h1>
             <p className="hero-sub">
-              Your name — replace with a line on what you actually do: the kind of
-              problems you reach for, and the layer of the stack you live in.
+              Saqib Jamal — Software Engineer with keen interests in Smart Contracts development, Cryptogtraphy and web3Security : 
+              
             </p>
           </div>
           <div className="hero-graphic">
