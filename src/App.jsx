@@ -24,9 +24,10 @@ export default function App() {
               I build systems,<br />
               then ask what breaks them.
             </h1>
-            <p className="hero-sub">
-              Your name — replace with a line on what you actually do: the kind of
-              problems you reach for, and the layer of the stack you live in.
+                        <p className="hero-sub">
+              Final-year COMPUTER SCIENCE student, with a focus on 
+              security and cryptography. Most recently: a blockchain-based degree
+              verification system on Ethereum.
             </p>
           </div>
           <div className="hero-graphic">
@@ -46,10 +47,10 @@ export default function App() {
         <section id="contact" className="section contact-section">
           <p className="section-eyebrow">Get in touch</p>
           <h2 className="section-title">Contact</h2>
-          <div className="contact-links">
-            <a href="mailto:you@example.com">Email</a>
-            <a href="https://github.com/yourhandle" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <div className="contact-links">
+            <a href="mailto:saqibjamal734@gmail.com">Email</a>
+            <a href="https://github.com/saqib-jamal" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/saqib-jamal-8b5261274" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </section>
       </main>
