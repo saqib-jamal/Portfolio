@@ -25,7 +25,7 @@ export default function App() {
               then ask what breaks them.
             </h1>
                         <p className="hero-sub">
-              Final-year COMPUTER SCIENCE student, with a focus on 
+              Final-year Computer Science student, with a focus on 
               security and cryptography. Most recently: a blockchain-based degree
               verification system on Ethereum.
             </p>
