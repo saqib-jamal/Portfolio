@@ -1,5 +1,6 @@
 import ShareLine from './ShareLine';
 import Certifications from './Certifications';
+import Projects from './Projects';
 import './App.css';
 
 export default function App() {
@@ -49,15 +50,7 @@ export default function App() {
 
         <Certifications />
 
-        <section id="about" className="section">
-          <p className="section-eyebrow">About</p>
-          <h2 className="section-title">Background</h2>
-          <p className="about-text">
-            Placeholder — a few sentences on your path so far: what you've
-            studied, what pulled you toward security/crypto specifically, and
-            what kind of role you're looking for next.
-          </p>
-        </section>
+        <Projects />
 
         <section id="contact" className="section contact-section">
           <p className="section-eyebrow">Get in touch</p>
