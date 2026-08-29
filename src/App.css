@@ -373,3 +373,32 @@
     gap: 16px;
   }
 }
+.skills-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.skill-group-label {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--grey);
+  margin: 0 0 10px;
+}
+
+.skill-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-tags li {
+  font-size: 14px;
+  color: var(--ink);
+  background: #ECEAE4;
+  padding: 6px 12px;
+  border-radius: 3px;
+}

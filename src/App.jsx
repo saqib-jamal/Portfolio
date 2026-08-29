@@ -1,6 +1,7 @@
 import ShareLine from './ShareLine';
 import Certifications from './Certifications';
 import Projects from './Projects';
+import Skills from './Skills';
 import './App.css';
 
 export default function App() {
@@ -40,6 +41,7 @@ export default function App() {
 
 
         <Projects />
+        <Skills />
         <Certifications />
 
        <section id="about" className="section">
