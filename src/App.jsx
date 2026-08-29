@@ -37,20 +37,11 @@ export default function App() {
           </div>
         </section>
 
-        <section id="work" className="section">
-          <p className="section-eyebrow">Selected work</p>
-          <h2 className="section-title">Projects</h2>
-          <div className="project-placeholder">
-            <p>
-              This section is waiting on real project details — description,
-              stack, and links — before it gets filled in properly.
-            </p>
-          </div>
-        </section>
-
-        <Certifications />
 
         <Projects />
+        <Certifications />
+
+        
 
         <section id="contact" className="section contact-section">
           <p className="section-eyebrow">Get in touch</p>
