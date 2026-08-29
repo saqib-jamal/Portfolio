@@ -42,7 +42,13 @@ export default function App() {
         <Projects />
         <Certifications />
 
-        
+       <section id="about" className="section">
+          <p className="section-eyebrow">About</p>
+          <h2 className="section-title">Background</h2>
+          <p className="about-text">
+            Computer Science student about to graduate this october.
+          </p>
+        </section>
 
         <section id="contact" className="section contact-section">
           <p className="section-eyebrow">Get in touch</p>
