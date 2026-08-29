@@ -1,11 +1,11 @@
 const groups = [
   {
-    label: 'Build with regularly',
+    label: 'Build regularly with',
     skills: ['JavaScript', 'React', 'Node.js', 'Express', 'REST APIs', 'PostgreSQL', 'Git'],
   },
   {
     label: 'Blockchain & smart contracts',
-    skills: ['Solidity', 'ethers.js', 'Ethereum'],
+    skills: ['Solidity', 'ethers.js', 'Ethereum', 'Internet Computer Protocol'],
   },
   {
     label: 'Cryptography fundamentals',
