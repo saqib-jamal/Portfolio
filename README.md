@@ -1,16 +1,50 @@
-# React + Vite
+# Saqib Jamal — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio site, built to showcase real projects and certifications
+rather than a generic template.
 
-Currently, two official plugins are available:
+**Live:** https://portfolio-two-puce-n350kje7l7.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sections
 
-## React Compiler
+- **Hero** — short intro, with a custom SVG graphic illustrating polynomial
+  secret sharing (points on a line, resolving to a hidden value at x = 0)
+- **Projects** — currently featuring a blockchain-based degree verification
+  system on Ethereum (Solidity + React + ethers.js)
+- **Skills** — grouped honestly by depth: things built with regularly vs.
+  things understood conceptually but not shipped extensively
+- **Certifications** — verified course completions from Coursera and Cyfrin
+  Updraft, each linking to a public verification page
+- **About** — background and current focus
+- **Contact** — email, GitHub, LinkedIn
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built with
 
-## Expanding the Oxlint configuration
+- [React](https://react.dev) 19
+- [Vite](https://vitejs.dev) 8
+- Plain CSS (no framework) — custom design tokens for typography, color, and spacing
+- Deployed on [Vercel](https://vercel.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Running locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local URL Vite prints in the terminal.
+
+## Project structure
+
+```
+src/
+  App.jsx            — page layout and section composition
+  App.css            — all styling
+  ShareLine.jsx       — hero's animated secret-sharing graphic
+  Projects.jsx        — project data + rendering
+  Skills.jsx           — skills data + rendering
+  Certifications.jsx   — certification data + rendering
+public/
+  favicon.svg          — site icon
+  og-image.png          — social share preview image
+```
