@@ -402,3 +402,107 @@
   padding: 6px 12px;
   border-radius: 3px;
 }
+.verifier-intro {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #4A4740;
+  max-width: 62ch;
+  margin: 0 0 24px;
+}
+
+.verifier-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.verifier-input {
+  font-family: var(--mono);
+  font-size: 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper);
+  color: var(--ink);
+  width: 140px;
+}
+
+.verifier-input:focus {
+  outline: none;
+  border-color: var(--indigo);
+}
+
+.verifier-button {
+  font-family: var(--mono);
+  font-size: 14px;
+  padding: 10px 20px;
+  border: 1px solid var(--ink);
+  border-radius: 4px;
+  background: var(--ink);
+  color: var(--paper);
+  cursor: pointer;
+  transition: opacity 150ms ease;
+}
+
+.verifier-button:hover {
+  opacity: 0.85;
+}
+
+.verifier-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.verifier-status {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--grey);
+}
+
+.verifier-result {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.verifier-badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+
+.verifier-badge.valid {
+  background: #E4EDE4;
+  color: #2E5B2E;
+}
+
+.verifier-badge.revoked {
+  background: #F0E0DE;
+  color: #8B3A2F;
+}
+
+.verifier-fields {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 20px;
+  margin: 0;
+}
+
+.verifier-fields dt {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.verifier-fields dd {
+  margin: 0;
+  font-size: 14px;
+}
+
+.verifier-fields dd.mono {
+  font-family: var(--mono);
+}

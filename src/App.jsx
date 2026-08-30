@@ -1,6 +1,7 @@
 import ShareLine from './ShareLine';
 import Certifications from './Certifications';
 import GitHubActivity from './GithubActivity';
+import DegreeVerifier from './DegreeVerifier';
 import Projects from './Projects';
 import Skills from './Skills';
 import './App.css';
@@ -43,6 +44,7 @@ export default function App() {
 
         <Projects />
         <Skills />
+        <DegreeVerifier />
         <GitHubActivity />
         <Certifications />
 
