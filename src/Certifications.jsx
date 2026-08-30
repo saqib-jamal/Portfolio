@@ -18,21 +18,21 @@ const certificates = [
     issuer: 'Coursera — University of Michigan',
     date: 'Sep 2023',
     url: 'https://coursera.org/verify/VP6GQPSMWAGU',
-    logo: '/coursera-logo.svg',
+    logo: '/coursera-logo.png',
   },
   {
     title: 'Smart Contracts',
     issuer: 'Coursera — University at Buffalo (SUNY)',
     date: 'Sep 2023',
     url: 'https://coursera.org/verify/BM5UK8JKKWM3',
-    logo: '/coursera-logo.svg',
+    logo: '/coursera-logo.png',
   },
   {
     title: 'Blockchain Basics',
     issuer: 'Coursera — University at Buffalo (SUNY)',
     date: 'Jul 2023',
     url: 'https://coursera.org/verify/6447JL3YU58L',
-    logo: '/coursera-logo.svg',
+    logo: '/coursera-logo.png',
   },
 ];
 
