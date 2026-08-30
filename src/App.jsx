@@ -1,5 +1,6 @@
 import ShareLine from './ShareLine';
 import Certifications from './Certifications';
+import GitHubActivity from './GithubActivity';
 import Projects from './Projects';
 import Skills from './Skills';
 import './App.css';
@@ -42,6 +43,7 @@ export default function App() {
 
         <Projects />
         <Skills />
+        <GitHubActivity />
         <Certifications />
 
        <section id="about" className="section">
