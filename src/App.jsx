@@ -22,6 +22,7 @@ export default function App() {
       <main>
         <section className="hero">
           <div className="hero-text">
+            <h1>Saqib-Jamal</h1>
             <p className="eyebrow">Software Engineer — with a lean toward security &amp; cryptography</p>
             <h1>
               I build systems,<br />
