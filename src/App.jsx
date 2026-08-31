@@ -22,12 +22,12 @@ export default function App() {
       <main>
         <section className="hero">
           <div className="hero-text">
-            <h1>Saqib-Jamal</h1>
+            <h1>Saqib Jamal</h1>
             <p className="eyebrow">Software Engineer — with a lean toward security &amp; cryptography</p>
-            <h1>
+            <h2>
               I build systems,<br />
               then ask what breaks them.
-            </h1>
+            </h2>
                         <p className="hero-sub">
               Final-year Computer Science student, with a focus on 
               security and cryptography. Most recently: a blockchain-based degree
