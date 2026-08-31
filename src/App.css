@@ -476,13 +476,13 @@
 }
 
 .verifier-badge.valid {
-  background: #E4EDE4;
-  color: #2E5B2E;
+  background: #E3E7F0;
+  color: var(--indigo);
 }
 
 .verifier-badge.revoked {
-  background: #F0E0DE;
-  color: #8B3A2F;
+  background: #EDE6DC;
+  color: #8A5A2E;
 }
 
 .verifier-fields {
