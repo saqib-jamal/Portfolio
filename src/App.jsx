@@ -37,7 +37,7 @@ export default function App() {
           <div className="hero-graphic">
             <ShareLine />
             <p className="graphic-caption">
-              two points define a line — the secret sits where nobody's looking.
+              Everyone can see the vault. Opening it takes more than a key.
             </p>
           </div>
         </section>
