@@ -53,7 +53,7 @@ export default function App() {
           <p className="section-eyebrow">About</p>
           <h2 className="section-title">Background</h2>
           <p className="about-text">
-            Computer Science student about to graduate this october.
+            I am a computer science student about to graduate this october. 
           </p>
         </section>
 
@@ -64,6 +64,7 @@ export default function App() {
             <a href="mailto:saqibjamal734@gmail.com">Email</a>
             <a href="https://github.com/saqib-jamal" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/saqib-jamal-8b5261274" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://discord.com/users/1206660471592067203" target="_blank" rel="noreferrer">Discord</a>
           </div>
         </section>
       </main>
