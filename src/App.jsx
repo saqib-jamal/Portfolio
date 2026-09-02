@@ -53,7 +53,12 @@ export default function App() {
           <p className="section-eyebrow">About</p>
           <h2 className="section-title">Background</h2>
           <p className="about-text">
-            I am a computer science student about to graduate this october. 
+             I’m a Computer Science student with a strong interest in blockchain technology,
+             cybersecurity, and cryptography. I enjoy exploring the underlying systems that
+             make digital applications secure and trustworthy—from cryptographic algorithms 
+             and public-key systems to blockchain architecture and smart contracts. My curiosity
+             is driven by understanding not just how these technologies work, but why they work
+             and the principles behind them.
           </p>
         </section>
 
