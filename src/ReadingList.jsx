@@ -8,12 +8,13 @@ const readingList = [
   { title: "Why Your Cat Thinks You're an Idiot", author: 'Sam Hart' },
   { title: 'Dune', author: 'Frank Herbert' },
   { title: 'Happy Things in Sorrow Times', author: 'Tehmina Durrani' },
+  { title: 'Blockchain Technology', author: 'S. Chandramouli et al.' },
 ];
 
 export default function Books() {
   return (
     <div className="books">
-      <p className="books-label">My Reading List</p>
+      <p className="books-label">On The Shelf</p>
       <ul className="books-list">
         {readingList.map((b) => (
           <li key={b.title}>
