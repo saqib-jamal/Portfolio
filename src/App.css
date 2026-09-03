@@ -522,3 +522,15 @@
 .verifier-fields dd.mono {
   font-family: var(--mono);
 }
+.books {
+  margin-top: 28px;
+}
+
+.books-label {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--grey);
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

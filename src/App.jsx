@@ -2,6 +2,7 @@ import ShareLine from './ShareLine';
 import Certifications from './Certifications';
 import GitHubActivity from './GithubActivity';
 import DegreeVerifier from './DegreeVerifier';
+import ReadingList from './ReadingList';
 import Projects from './Projects';
 import Skills from './Skills';
 import './App.css';
@@ -60,6 +61,7 @@ export default function App() {
              is driven by understanding not just how these technologies work, but why they work
              and the principles behind them.
           </p>
+          <ReadingList />
         </section>
 
         <section id="contact" className="section contact-section">
