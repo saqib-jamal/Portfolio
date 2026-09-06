@@ -43,7 +43,7 @@ export default function DegreeVerifier() {
 
   return (
     <section id="verifier" className="section">
-      <p className="section-eyebrow">Live on-chain read</p>
+      <p className="section-eyebrow">02 — Live on-chain read</p>
       <h2 className="section-title">Try the Degree Verifier</h2>
       <p className="verifier-intro">
         This reads directly from the deployed Sepolia contract behind the

@@ -14,7 +14,7 @@ const projects = [
 export default function Projects() {
   return (
     <section id="work" className="section">
-      <p className="section-eyebrow">Selected work</p>
+      <p className="section-eyebrow">01 — Selected work</p>
       <h2 className="section-title">Projects</h2>
       <div className="project-list">
         {projects.map((project) => (

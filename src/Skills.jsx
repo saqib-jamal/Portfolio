@@ -20,7 +20,7 @@ const groups = [
 export default function Skills() {
   return (
     <section id="skills" className="section">
-      <p className="section-eyebrow">Toolkit</p>
+      <p className="section-eyebrow">03 — Toolkit</p>
       <h2 className="section-title">Skills</h2>
       <div className="skills-groups">
         {groups.map((group) => (

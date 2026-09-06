@@ -39,7 +39,7 @@ const certificates = [
 export default function Certifications() {
   return (
     <section id="certifications" className="section">
-      <p className="section-eyebrow">Verified</p>
+      <p className="section-eyebrow">04 — Verified</p>
       <h2 className="section-title">Certifications</h2>
       <ul className="cert-list">
         {certificates.map((cert) => (

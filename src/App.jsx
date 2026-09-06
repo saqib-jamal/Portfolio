@@ -51,7 +51,7 @@ export default function App() {
         <Certifications />
 
        <section id="about" className="section">
-          <p className="section-eyebrow">About</p>
+          <p className="section-eyebrow">06 — About</p>
           <h2 className="section-title">Background</h2>
           <p className="about-text">
              I’m a Computer Science student with a strong interest in blockchain technology,
@@ -65,7 +65,7 @@ export default function App() {
         </section>
 
         <section id="contact" className="section contact-section">
-          <p className="section-eyebrow">Get in touch</p>
+          <p className="section-eyebrow">07 — Get in touch</p>
           <h2 className="section-title">Contact</h2>
                     <div className="contact-links">
             <a href="mailto:saqibjamal734@gmail.com">Email</a>

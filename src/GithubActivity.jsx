@@ -19,7 +19,7 @@ export default function GitHubActivity() {
 
   return (
     <section id="activity" className="section">
-      <p className="section-eyebrow">Live</p>
+      <p className="section-eyebrow">05 — Live</p>
       <h2 className="section-title">Recent GitHub Activity</h2>
 
       {error && (
