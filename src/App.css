@@ -578,3 +578,14 @@
     gap: 16px;
   }
 }
+.share-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  fill: var(--grey);
+  opacity: 0;
+  transition: opacity 500ms ease 500ms;
+}
+
+.share-line:has(.is-settled) .share-label {
+  opacity: 1;
+}

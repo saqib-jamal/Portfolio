@@ -54,7 +54,7 @@ export default function App() {
           <p className="section-eyebrow">06 — About</p>
           <h2 className="section-title">Background</h2>
           <p className="about-text">
-             I’m a Computer Science student with a strong interest in blockchain technology,
+             I am a Computer Science student with a strong interest in blockchain technology,
              cybersecurity, and cryptography. I enjoy exploring the underlying systems that
              make digital applications secure and trustworthy—from cryptographic algorithms 
              and public-key systems to blockchain architecture and smart contracts. My curiosity
