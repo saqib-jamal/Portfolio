@@ -23,15 +23,30 @@ function toY(y) {
   return OFFSET + ((Y_MAX - y) / (Y_MAX - Y_MIN)) * PLOT_H;
 }
 
+function findRoot() {
+  let lo = X_START;
+  let hi = X_END;
+  for (let i = 0; i < 60; i++) {
+    const mid = (lo + hi) / 2;
+    if (curveY(mid) === null) {
+      lo = mid;
+    } else {
+      hi = mid;
+    }
+  }
+  return hi;
+}
+
+const X_ROOT = findRoot();
+
 function buildBranchPath(sign) {
   const step = 0.04;
-  let d = '';
-  for (let x = X_START; x <= X_END; x += step) {
+  let d = `M ${toX(X_ROOT).toFixed(2)} ${toY(0).toFixed(2)} `;
+  for (let x = X_ROOT; x <= X_END; x += step) {
     const y = curveY(x);
     if (y === null) continue;
     const py = sign * y;
-    const cmd = d === '' ? 'M' : 'L';
-    d += `${cmd} ${toX(x).toFixed(2)} ${toY(py).toFixed(2)} `;
+    d += `L ${toX(x).toFixed(2)} ${toY(py).toFixed(2)} `;
   }
   return d.trim();
 }
