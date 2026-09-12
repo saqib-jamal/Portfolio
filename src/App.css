@@ -100,62 +100,7 @@
   gap: 16px;
 }
 
-.share-line {
-  width: 100%;
-  height: auto;
-  overflow: visible;
-}
 
-.curve-ghost {
-  fill: none;
-  stroke: var(--grey);
-  stroke-width: 1;
-  stroke-dasharray: 3 4;
-  opacity: 0.35;
-}
-
-.share-line-path {
-  stroke: var(--line);
-  stroke-width: 1.5;
-  stroke-dasharray: 700;
-  stroke-dashoffset: 700;
-  transition: stroke-dashoffset 900ms cubic-bezier(0.22, 1, 0.36, 1), stroke 600ms ease 700ms;
-}
-
-.share-line-path.is-settled {
-  stroke-dashoffset: 0;
-  stroke: var(--indigo);
-}
-
-.pt {
-  fill: var(--grey);
-  opacity: 0.5;
-  transition: fill 400ms ease, opacity 400ms ease, r 400ms ease;
-}
-
-.pt.is-settled {
-  fill: var(--brass);
-  opacity: 1;
-  r: 5.5;
-}
-
-.origin {
-  fill: var(--paper);
-  stroke: var(--ink);
-  stroke-width: 1.2;
-  opacity: 0;
-  transition: opacity 500ms ease 900ms;
-}
-
-.origin.is-settled {
-  opacity: 1;
-}
-
-.origin-label {
-  font-family: var(--mono);
-  font-size: 12px;
-  fill: var(--grey);
-}
 
 .graphic-caption {
   font-family: var(--mono);
@@ -578,14 +523,75 @@
     gap: 16px;
   }
 }
-.share-label {
-  font-family: var(--mono);
-  font-size: 10px;
-  fill: var(--grey);
-  opacity: 0;
-  transition: opacity 500ms ease 500ms;
+.curve-add {
+  width: 100%;
+  height: auto;
+  overflow: visible;
 }
 
-.share-line:has(.is-settled) .share-label {
+.curve-path {
+  fill: none;
+  stroke: var(--grey);
+  stroke-width: 1;
+  opacity: 0.6;
+}
+
+.curve-secant {
+  stroke: var(--line);
+  stroke-width: 1;
+  stroke-dasharray: 320;
+  stroke-dashoffset: 320;
+  transition: stroke-dashoffset 900ms cubic-bezier(0.22, 1, 0.36, 1), stroke 500ms ease 700ms;
+}
+
+.curve-secant.is-settled {
+  stroke-dashoffset: 0;
+  stroke: var(--indigo);
+}
+
+.curve-reflect {
+  stroke: var(--grey);
+  stroke-width: 1;
+  stroke-dasharray: 4 4;
+  opacity: 0;
+  transition: opacity 500ms ease 900ms;
+}
+
+.curve-reflect.is-settled {
+  opacity: 0.7;
+}
+
+.curve-pt {
+  fill: var(--grey);
+  opacity: 0.5;
+  transition: fill 400ms ease, opacity 400ms ease, r 400ms ease;
+}
+
+.curve-pt.is-settled {
+  fill: var(--brass);
+  opacity: 1;
+}
+
+.curve-pt-ghost {
+  fill: var(--paper);
+  stroke: var(--grey);
+  stroke-width: 1;
+  opacity: 0;
+  transition: opacity 400ms ease 700ms;
+}
+
+.curve-pt-ghost.is-settled {
+  opacity: 0.8;
+}
+
+.curve-pt-sum {
+  fill: var(--paper);
+  stroke: var(--ink);
+  stroke-width: 1.2;
+  opacity: 0;
+  transition: opacity 500ms ease 1000ms;
+}
+
+.curve-pt-sum.is-settled {
   opacity: 1;
 }

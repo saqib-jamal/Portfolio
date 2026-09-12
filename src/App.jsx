@@ -1,5 +1,5 @@
-import ShareLine from './ShareLine';
 import Certifications from './Certifications';
+import AddCurve from './AddCurve';
 import GitHubActivity from './GithubActivity';
 import DegreeVerifier from './DegreeVerifier';
 import ReadingList from './ReadingList';
@@ -36,9 +36,11 @@ export default function App() {
             </p>
           </div>
           <div className="hero-graphic">
-            <ShareLine />
+
+            <AddCurve />
+            
             <p className="graphic-caption">
-              Everyone can see the vault. Opening it takes more than a key.
+              where the curve meets the line again - and dissolves into its own reflection.
             </p>
           </div>
         </section>
