@@ -61,10 +61,10 @@ export default function CurveAdd() {
   const thirdPx = { x: toX(third.x), y: toY(third.y) };
   const sumPx = { x: toX(sum.x), y: toY(sum.y) };
 
-  const dx = qPx.x - pPx.x;
-  const dy = qPx.y - pPx.y;
-  const lineStart = { x: pPx.x - dx * 0.4, y: pPx.y - dy * 0.4 };
-  const lineEnd = { x: thirdPx.x - dx * 0.3, y: thirdPx.y - dy * 0.3 };
+  const dx = qPx.x - thirdPx.x;
+  const dy = qPx.y - thirdPx.y;
+  const lineStart = { x: thirdPx.x - dx * 0.25, y: thirdPx.y - dy * 0.25 };
+  const lineEnd = { x: qPx.x + dx * 0.25, y: qPx.y + dy * 0.25 };
 
   return (
     <svg
