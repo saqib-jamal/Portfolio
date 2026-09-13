@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vercel/og": "^0.6.3",
     "ethers": "^6.17.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"

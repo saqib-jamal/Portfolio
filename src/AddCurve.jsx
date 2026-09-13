@@ -78,8 +78,8 @@ export default function CurveAdd() {
 
   const dx = qPx.x - thirdPx.x;
   const dy = qPx.y - thirdPx.y;
-  const lineStart = { x: thirdPx.x - dx * 0.25, y: thirdPx.y - dy * 0.25 };
-  const lineEnd = { x: qPx.x + dx * 0.25, y: qPx.y + dy * 0.25 };
+  const lineStart = { x: thirdPx.x - dx * 0.6, y: thirdPx.y - dy * 0.6 };
+  const lineEnd = { x: qPx.x + dx * 0.6, y: qPx.y + dy * 0.6 };
 
   return (
     <svg

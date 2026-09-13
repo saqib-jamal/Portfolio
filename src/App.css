@@ -539,8 +539,8 @@
 .curve-secant {
   stroke: var(--line);
   stroke-width: 1;
-  stroke-dasharray: 400;
-  stroke-dashoffset: 400;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
   transition: stroke-dashoffset 900ms cubic-bezier(0.22, 1, 0.36, 1), stroke 500ms ease 700ms;
 }
 
